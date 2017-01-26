@@ -11,25 +11,13 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello",
-        "onCommand:extension.countSelection",
-        // "onCommand:extension.wordCounter"
-        "onLanguage:markdown"
+        
     ],
     "main": "./out/src/extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.sayHello",
-            "title": "Hello World"
-        },
-        {
-            "command": "extension.countSelection",
-            "title": "Selection Counter"
-        },
-        {
-            "command": "extension.wordCounter",
-            "title": "Word Counter"
-        }]
+        "commands": [
+            
+        ]
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
